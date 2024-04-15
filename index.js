@@ -41,23 +41,333 @@ const app = {
       name: "Har Kasam Se Badi Hai",
       singer: "Bozitt",
       path: "assets/songs/01 - Har Kasam Se Badi Hai - DownloadMing.SE.mp3",
-      image: "https://i.scdn.co/image/ab67616d00001e02f2002dc95c74ac11eaba38d1"
+      image: "https://i.scdn.co/image/ab67616d00001e02f2002dc95c74ac11eaba38d1",
     },
     {
-      name: "Tu Phir Se Aana",
-      singer: "Raftaar x Salim Merchant x Karma",
-      path: "assets/songs/Tu-Phir-Se-Aana.mp3",
-      image: "assets/images/Tu-Phir-Se-Aana.jpg"
+      name: "Chhupana Bhi Nahin Aata",
+      singer: "Chhupana Bhi Nahin Aata",
+      path: "assets/songs/02 - Chhupana Bhi Nahin Aata - DownloadMing.SE.mp3",
+      image: "https://i.scdn.co/image/ab67616d00001e02f2002dc95c74ac11eaba38d1",
     },
     {
-      name: "Naachne Ka Shaunq",
-      singer: "Raftaar x Brobha V",
-      path: "assets/songs/Naachne-Ka-Shaunq.mp3",
-      image: "assets/images/Naachne-Ka-Shaunq.jpg"
+      name: "Agar Zindagi Ho",
+      singer: "Agar Zindagi Ho",
+      path: "assets/songs/03 - Agar Zindagi Ho - DownloadMing.SE.mp3",
+      image: "https://i.scdn.co/image/ab67616d00001e02f2002dc95c74ac11eaba38d1",
     },
-    // Add more songs here...
+    {
+      name: "Teri Umeed Tera Intezar",
+      singer: "Teri Umeed Tera Intezar",
+      path: "assets/songs/04 - Teri Umeed Tera Intezar - DownloadMing.SE.mp3",
+      image: "https://i.scdn.co/image/ab67616d00001e02f2002dc95c74ac11eaba38d1",
+    },
+    {
+      name: "Dil Ne Yeh Kaha Hain Dil Se",
+      // singer: "Agar Zindagi Ho",
+      path: "assets/songs/05 - Dil Ne Yeh Kaha Hain Dil Se - DownloadMing.SE.mp3",
+      image: "https://i.scdn.co/image/ab67616d00001e02f2002dc95c74ac11eaba38d1",
+    },
+    {
+      name: "Saaton Janam Main Tere",
+      // singer: "Agar Zindagi Ho",
+      path: "assets/songs/06 - Saaton Janam Main Tere - DownloadMing.SE.mp3",
+      image: "https://i.scdn.co/image/ab67616d00001e02f2002dc95c74ac11eaba38d1",
+    },
+    {
+      name: "Diwani Diwani",
+      // singer: "Agar Zindagi Ho",
+      path: "assets/songs/07 - Diwani Diwani - DownloadMing.SE.mp3",
+      image: "https://i.scdn.co/image/ab67616d00001e02f2002dc95c74ac11eaba38d1",
+    },
+    {
+      name: "Pehli Dafaa Is Dil Mein",
+      // singer: "Agar Zindagi Ho",
+      path: "assets/songs/08 - Pehli Dafaa Is Dil Mein - DownloadMing.SE.mp3",
+      image: "https://i.scdn.co/image/ab67616d00001e02f2002dc95c74ac11eaba38d1",
+    },
+    {
+      name: "Abhi To Mohabbat Ka Aghaz Hai",
+      // singer: "Agar Zindagi Ho",
+      path: "assets/songs/09 - Abhi To Mohabbat Ka Aghaz Hai - DownloadMing.SE.mp3",
+      image: "https://i.scdn.co/image/ab67616d00001e02f2002dc95c74ac11eaba38d1",
+    },
+    {
+      name: "Pehli Baar Dil Ye",
+      // singer: "Agar Zindagi Ho",
+      path: "assets/songs/10 - Pehli Baar Dil Ye - DownloadMing.SE.mp3",
+      image: "https://i.scdn.co/image/ab67616d00001e02f2002dc95c74ac11eaba38d1",
+    },
+    {
+      name: "Tune Zindagi Mein Aake - Female",
+      // singer: "Agar Zindagi Ho",
+      path: "assets/songs/11 - Tune Zindagi Mein Aake - Female - DownloadMing.SE.mp3",
+      image: "https://i.scdn.co/image/ab67616d00001e02f2002dc95c74ac11eaba38d1",
+    },
+    {
+      name: "Mausam Ki Tarah Tum Bhi Badal",
+      // singer: "Agar Zindagi Ho",
+      path: "assets/songs/12 - Mausam Ki Tarah Tum Bhi Badal - DownloadMing.SE.mp3",
+      image: "https://i.scdn.co/image/ab67616d00001e02f2002dc95c74ac11eaba38d1",
+    },
+    {
+      name: "Kahin Pyaar Na Ho Jaaye",
+      // singer: "Agar Zindagi Ho",
+      path: "assets/songs/13 - Kahin Pyaar Na Ho Jaaye - DownloadMing.SE.mp3",
+      image: "https://i.scdn.co/image/ab67616d00001e02f2002dc95c74ac11eaba38d1",
+    },
+    {
+      name: "Aanewali Hain Milan Ki",
+      // singer: "Agar Zindagi Ho",
+      path: "assets/songs/14 - Aanewali Hain Milan Ki - DownloadMing.SE.mp3",
+      image: "https://i.scdn.co/image/ab67616d00001e02f2002dc95c74ac11eaba38d1",
+    },
+    {
+      name: "Aankhon Mein Kya",
+      // singer: "",
+      path: "assets/songs/15 - Aankhon Mein Kya - DownloadMing.SE.mp3",
+      image: "https://i.scdn.co/image/ab67616d00001e02f2002dc95c74ac11eaba38d1",
+    },
+    {
+      name: "Bahut Pyar Karte Hai",
+      // singer: "",
+      path: "assets/songs/16 - Bahut Pyar Karte Hai - Female - DownloadMing.SE.mp3",
+      image: "https://i.scdn.co/image/ab67616d00001e02f2002dc95c74ac11eaba38d1",
+    },
+    {
+      name: "Mera Dil Bhi Kitna Pagal Hai",
+      // singer: "",
+      path: "assets/songs/17 - Mera Dil Bhi Kitna Pagal Hai - DownloadMing.SE.mp3",
+      image: "https://i.scdn.co/image/ab67616d00001e02f2002dc95c74ac11eaba38d1",
+    },
+    {
+      name: "Mere Mehboob Ki Yehi Pehchan",
+      // singer: "",
+      path: "assets/songs/18 - Mere Mehboob Ki Yehi Pehchan - DownloadMing.SE.mp3",
+      image: "https://i.scdn.co/image/ab67616d00001e02f2002dc95c74ac11eaba38d1",
+    },
+    {
+      name: "Bheegi Huyee Hai Raat",
+      // singer: "",
+      path: "assets/songs/19 - Bheegi Huyee Hai Raat - DownloadMing.SE.mp3",
+      image: "https://i.scdn.co/image/ab67616d00001e02f2002dc95c74ac11eaba38d1",
+    },
+    {
+      name: "Yaar Badal Na Jaana",
+      // singer: "",
+      path: "assets/songs/20 - Yaar Badal Na Jaana - DownloadMing.SE.mp3",
+      image: "https://i.scdn.co/image/ab67616d00001e02f2002dc95c74ac11eaba38d1",
+    },
+    {
+      name: "",
+      // singer: "",
+      path: "assets/songs/",
+      image: "https://i.scdn.co/image/ab67616d00001e02f2002dc95c74ac11eaba38d1",
+    },
+    {
+      name: "",
+      // singer: "",
+      path: "assets/songs/",
+      image: "https://i.scdn.co/image/ab67616d00001e02f2002dc95c74ac11eaba38d1",
+    },
+    {
+      name: "",
+      // singer: "",
+      path: "assets/songs/",
+      image: "https://i.scdn.co/image/ab67616d00001e02f2002dc95c74ac11eaba38d1",
+    },
+    {
+      name: "",
+      // singer: "",
+      path: "assets/songs/",
+      image: "https://i.scdn.co/image/ab67616d00001e02f2002dc95c74ac11eaba38d1",
+    },
+    {
+      name: "",
+      // singer: "",
+      path: "assets/songs/",
+      image: "https://i.scdn.co/image/ab67616d00001e02f2002dc95c74ac11eaba38d1",
+    },
+    {
+      name: "",
+      // singer: "",
+      path: "assets/songs/",
+      image: "https://i.scdn.co/image/ab67616d00001e02f2002dc95c74ac11eaba38d1",
+    },
+    {
+      name: "",
+      // singer: "",
+      path: "assets/songs/",
+      image: "https://i.scdn.co/image/ab67616d00001e02f2002dc95c74ac11eaba38d1",
+    },
+    {
+      name: "",
+      // singer: "",
+      path: "assets/songs/",
+      image: "https://i.scdn.co/image/ab67616d00001e02f2002dc95c74ac11eaba38d1",
+    },
+    {
+      name: "",
+      // singer: "",
+      path: "assets/songs/",
+      image: "https://i.scdn.co/image/ab67616d00001e02f2002dc95c74ac11eaba38d1",
+    },
+    {
+      name: "",
+      // singer: "",
+      path: "assets/songs/",
+      image: "https://i.scdn.co/image/ab67616d00001e02f2002dc95c74ac11eaba38d1",
+    },
+    {
+      name: "",
+      // singer: "",
+      path: "assets/songs/",
+      image: "https://i.scdn.co/image/ab67616d00001e02f2002dc95c74ac11eaba38d1",
+    },
+    {
+      name: "",
+      // singer: "",
+      path: "assets/songs/",
+      image: "https://i.scdn.co/image/ab67616d00001e02f2002dc95c74ac11eaba38d1",
+    },
+    {
+      name: "",
+      // singer: "",
+      path: "assets/songs/",
+      image: "https://i.scdn.co/image/ab67616d00001e02f2002dc95c74ac11eaba38d1",
+    },
+    {
+      name: "",
+      // singer: "",
+      path: "assets/songs/",
+      image: "https://i.scdn.co/image/ab67616d00001e02f2002dc95c74ac11eaba38d1",
+    },
+    {
+      name: "",
+      // singer: "",
+      path: "assets/songs/",
+      image: "https://i.scdn.co/image/ab67616d00001e02f2002dc95c74ac11eaba38d1",
+    },
+    {
+      name: "",
+      // singer: "",
+      path: "assets/songs/",
+      image: "https://i.scdn.co/image/ab67616d00001e02f2002dc95c74ac11eaba38d1",
+    },
+    {
+      name: "",
+      // singer: "",
+      path: "assets/songs/",
+      image: "https://i.scdn.co/image/ab67616d00001e02f2002dc95c74ac11eaba38d1",
+    },
+    {
+      name: "",
+      // singer: "",
+      path: "assets/songs/",
+      image: "https://i.scdn.co/image/ab67616d00001e02f2002dc95c74ac11eaba38d1",
+    },
+    {
+      name: "",
+      // singer: "",
+      path: "assets/songs/",
+      image: "https://i.scdn.co/image/ab67616d00001e02f2002dc95c74ac11eaba38d1",
+    },
+    {
+      name: "",
+      // singer: "",
+      path: "assets/songs/",
+      image: "https://i.scdn.co/image/ab67616d00001e02f2002dc95c74ac11eaba38d1",
+    },
+    {
+      name: "",
+      // singer: "",
+      path: "assets/songs/",
+      image: "https://i.scdn.co/image/ab67616d00001e02f2002dc95c74ac11eaba38d1",
+    },
+    {
+      name: "",
+      // singer: "",
+      path: "assets/songs/",
+      image: "https://i.scdn.co/image/ab67616d00001e02f2002dc95c74ac11eaba38d1",
+    },
+    {
+      name: "",
+      // singer: "",
+      path: "assets/songs/",
+      image: "https://i.scdn.co/image/ab67616d00001e02f2002dc95c74ac11eaba38d1",
+    },
+    {
+      name: "",
+      // singer: "",
+      path: "assets/songs/",
+      image: "https://i.scdn.co/image/ab67616d00001e02f2002dc95c74ac11eaba38d1",
+    },
+    {
+      name: "",
+      // singer: "",
+      path: "assets/songs/",
+      image: "https://i.scdn.co/image/ab67616d00001e02f2002dc95c74ac11eaba38d1",
+    },
+    {
+      name: "",
+      // singer: "",
+      path: "assets/songs/",
+      image: "https://i.scdn.co/image/ab67616d00001e02f2002dc95c74ac11eaba38d1",
+    },
+    {
+      name: "",
+      // singer: "",
+      path: "assets/songs/",
+      image: "https://i.scdn.co/image/ab67616d00001e02f2002dc95c74ac11eaba38d1",
+    },
+    {
+      name: "",
+      // singer: "",
+      path: "assets/songs/",
+      image: "https://i.scdn.co/image/ab67616d00001e02f2002dc95c74ac11eaba38d1",
+    },
+    {
+      name: "",
+      // singer: "",
+      path: "assets/songs/",
+      image: "https://i.scdn.co/image/ab67616d00001e02f2002dc95c74ac11eaba38d1",
+    },
+    {
+      name: "",
+      // singer: "",
+      path: "assets/songs/",
+      image: "https://i.scdn.co/image/ab67616d00001e02f2002dc95c74ac11eaba38d1",
+    },
+    {
+      name: "",
+      // singer: "",
+      path: "assets/songs/",
+      image: "https://i.scdn.co/image/ab67616d00001e02f2002dc95c74ac11eaba38d1",
+    },
+    {
+      name: "",
+      // singer: "",
+      path: "assets/songs/",
+      image: "https://i.scdn.co/image/ab67616d00001e02f2002dc95c74ac11eaba38d1",
+    },
+    {
+      name: "",
+      // singer: "",
+      path: "assets/songs/",
+      image: "https://i.scdn.co/image/ab67616d00001e02f2002dc95c74ac11eaba38d1",
+    },
+    {
+      name: "",
+      // singer: "",
+      path: "assets/songs/",
+      image: "https://i.scdn.co/image/ab67616d00001e02f2002dc95c74ac11eaba38d1",
+    },
+    {
+      name: "",
+      // singer: "",
+      path: "assets/songs/",
+      image: "https://i.scdn.co/image/ab67616d00001e02f2002dc95c74ac11eaba38d1",
+    },
   ],
-  
 
   setConfig: function (key, value) {
     this.config[key] = value;
@@ -90,7 +400,7 @@ const app = {
     Object.defineProperty(this, "currentSong", {
       get: function () {
         return this.songs[this.currentIndex];
-      }
+      },
     });
   },
 
@@ -99,7 +409,7 @@ const app = {
     const cdWidth = cd.offsetWidth;
     const cdThumbAnimate = cdThumb.animate([{ transform: "rotate(360deg)" }], {
       duration: 10000,
-      itetations: Infinity
+      itetations: Infinity,
     });
     cdThumbAnimate.pause();
     (document.onscroll = function () {
@@ -194,7 +504,7 @@ const app = {
     setTimeout(() => {
       $(".song.active").scrollIntoView({
         behavior: "smooth",
-        block: "nearest"
+        block: "nearest",
       });
     }, 200);
   },
@@ -245,7 +555,7 @@ const app = {
     this.render();
     randomBtn.classList.toggle("active", this.isRandom);
     repeatBtn.classList.toggle("active", this.isRepeat);
-  }
+  },
 };
 
 app.start();
